@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 300px;
+
+    
+}
+
+header .top{
+    width: 100%;
+    height: 300px;
+    background: url(./images/lamp.jpg);
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px 0;
+   
+}
+
+header .top h3{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: white;
+   padding-left: 100px;
+}
+
+header .top img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+header .top .image{
+    width: 70%;
+    display: flex;
+    border-radius: 35px;
+    border: 2px solid white;
+    color: white;
+}
+
+header .image .bottom{
+    width: 50%;
+    display: flex;
+    gap: 0 10px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header .image .bottom h4{
+    font-weight: 100;
+    font-size: 18px;
+
+}
+
+header .btn{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header button{
+    background-color: orange;
+    border-radius: 35px;
+    width: 110px;
+    border: 1px solid orange;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+header nav{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    height: fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+}
+
+main{
+    width: 100%;
+    height: calc(100vh - 340px);
+    display: flex;
+    flex-direction: column;
+}
+
+
+main .first-h3{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+main .main-top{
+    width: 100%;
+    height: fit-content;
+    
+}
+
+
+main .row-one{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 0 55px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+main .row-one img{
+    width: 200px;
+    height: 150px;
+}
+
+main .main-top .row-two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 50px;
+    padding-top: 20px;
+    
+}
+
+main .main-top .row-two img{
+    width: 500px;
+    height: 250px;
+}
+
+main .main-top .row-two .right{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px 0;
+}
+
+main .main-top .row-two .right img{
+    width: 200px;
+    height: 150px;
+}
+
+main .second-h3{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+form{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form-container{
+    width: 40%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form .top{
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    gap: 0 150px;   
+}
+
+
+
+form .top input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px; 
+    background-color: whitesmoke;
+    border-bottom: 1px solid black; 
+    
+}
+
+form .middle{
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    gap: 0 150px;
+}
+
+form .middle input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px; 
+    background-color: whitesmoke;
+    border-bottom: 1px solid black; 
+}
+
+form .bottom{
+    width: 100%;
+    padding: 15px;
+}
+
+form .bottom input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px; 
+    background-color: whitesmoke;
+    border-bottom: 1px solid black; 
+}
+
+
+input::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: black;
+    color: silver;
+}
+
+form button{
+    width: 15%;
+    background-color: white;
+    padding: 9px;
+    border: white; 
+  
+}
+
+form .btn{
+    width: 100%;
+    padding-left: 11px;
+    padding-bottom: 5px;
+}
+
+.third-h3{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+main .main-middle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-middle img{
+    width: 200px;
+    height: 150px;
+}
+
+.main-middle .top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0 15px;
+    margin-top: 20px;
+}
+
+.main-middle .bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0 15px;
+    margin-top: 20px;
+}
+
+.main-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background: url(./images/map.png);
+    background-position: center;
+    background-size: 100%;
+    margin: 150px;
+    margin-top: 80px;
+    padding: 60px;
+   
+}
+
+.main-bottom h3{
+   
+    padding-top: 20px;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.main-bottom .top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 35px;
+}
+
+.main-bottom img{
+    padding-top: 20px;
+}
+
+.main-bottom .bottom{
+    width: 40%;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 0,8px, 32px rgba(0,0,0,0.2);
+    border:3px solid #f9f9f9;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    padding: 30px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    font-family: monospace;
+}
+
+
+@media(max-width: 720px){
+    body{
+        width: 100%;
+        height: 100vh;
+    }
+
+    header{
+        width: 100%;
+        height: 200px;
+    }
+
+    header .top{
+        width: 100%;
+        height: 150px;
+        background-repeat: no-repeat;
+    }
+
+    header .top h3{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 14px;
+       
+    }
+
+    header .top .image{
+        width: 80%;
+        display: flex;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header button{
+        width: 40px;
+        height: 30px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    header .image .bottom h4{
+        font-weight: 100;
+        font-size: 8px;
+    
+    }
+
+    header .image .bottom img{
+        width: 12px;
+        height: 12px;
+    }
+
+    header nav{
+        width: 100%;
+        display: flex;
+        
+    }
+
+    header nav a{
+        font-size: 6px;
+        padding: 3px;
+    }
+
+    main .row-one{
+        width: 100%;
+        gap: 0 10px;
+       
+    }
+
+    main .row-one img{
+        width: 80px;
+        height: 80px;
+    }
+
+    main .main-top .row-two{
+        width: 100%;
+        gap: 0 30px;
+    }
+
+    main .main-top .row-two img{
+        width: 150px;
+        height: 100px;
+    }
+
+    main .main-top .row-two .right img{
+        width: 80px;
+        height: 50px;
+
+    }
+
+    .form-container{
+        width: 90%;
+    }
+
+    form .top{
+        width: 100%;
+        gap: 0 15px;
+    }
+
+    form .middle{
+        width: 100%;
+        gap: 0 15px;
+    }
+
+    form .bottom{
+        width:100%;
+        font-size: 11px;
+    }
+
+    input::placeholder{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    form button{
+        width: 30%;
+    }
+
+    .main-middle img{
+        width: 70px;
+        height: 60px;
+    }
+
+    .main-bottom{
+        width: 95%;
+        
+        background-repeat: no-repeat;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+    
+    .main-bottom h3{
+        font-size: 15px;
+    }
+
+    .main-bottom .bottom{
+        width: 100%;
+        font-size: 10px;  
+    }
+
+    footer{
+        width: 100%;
+        font-size: 6px;
+        padding: 10px;
+    }
+
+
+
+
+
+    
+
+}
+
+
+
+
+
